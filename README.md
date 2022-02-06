@@ -25,7 +25,7 @@ Structural Patterns:
 Behavioral Patterns:
 - Strategy ✔
 - Observer ✔
-- Command 🕓
+- Command ✔
 - Chain of Responsability 🕓
 - Iterator 🕓
 - Mediator 🕓
