@@ -14,7 +14,7 @@ Creational Patterns:
 
 Structural Patterns:
 - Decorator ✔
-- Adapter 🕓
+- Adapter ✔
 - Bridge 🕓
 - Composite 🕓
 - Facade 🕓
