@@ -17,7 +17,7 @@ Structural Patterns:
 - Adapter ✔
 - Bridge 🕓
 - Composite 🕓
-- Facade 🕓
+- Facade ✔
 - Flyweight 🕓
 - Proxy 🕓
 - Interpreter 🕓
@@ -26,7 +26,7 @@ Behavioral Patterns:
 - Strategy ✔
 - Observer ✔
 - Command ✔
-- Chain of Responsability 🕓
+- Chain of Responsibility 🕓
 - Iterator 🕓
 - Mediator 🕓
 - Memento 🕓
