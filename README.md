@@ -19,7 +19,7 @@ Structural Patterns:
 - Composite 🕓
 - Facade ✔
 - Flyweight 🕓
-- Proxy 🕓
+- Proxy ✔
 - Interpreter 🕓
 
 Behavioral Patterns:
