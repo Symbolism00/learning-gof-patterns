@@ -15,7 +15,7 @@ Creational Patterns:
 Structural Patterns:
 - Decorator ✔
 - Adapter ✔
-- Bridge 🕓
+- Bridge ✔
 - Composite 🕓
 - Facade ✔
 - Flyweight 🕓
