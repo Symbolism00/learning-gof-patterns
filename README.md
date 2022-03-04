@@ -10,7 +10,7 @@ Creational Patterns:
 - Abstract Factory ✔
 - Singleton ✔
 - Builder 🕓
-- Prototype 🕓
+- Prototype ✔
 
 Structural Patterns:
 - Decorator ✔

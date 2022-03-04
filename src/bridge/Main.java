@@ -25,15 +25,15 @@ public class Main {
         // - Notificar por SMS a Test (no futuro)
         // - Notificar pelo aplicativo Demo uma pessoa (no futuro)
         // - Notificar pelo aplicativo Demo uma empresa (no futuro)
-        // - Notificar pelo aplicativo Demo uma TestEnitty (no futuro)
+        // - Notificar pelo aplicativo Demo uma Test (no futuro)
         // 1. Uma possível solução seria colocar toda esta lógica de envio de notificações
         //    numa única classe, porém iria estar a violar o SRP (Single Responsibility Principle) e
         //    o Open-Closed Principle.
         // 2. Outra possível solução seria criar uma classe para cada tipo de combinação. Apesar
         //    de ser uma solução que não viola nenhum dos principios anteriores, ela cresce
-        //    exponencialemnte ou fatorialmente, com as notificações Email e SMS + entidades Pessoa e Empresa
-        //    o número de classes a criar seria 4 = 2!. Com a adição da notificação pelo aplication Demo e
-        //    da entidade Test o número de classes a criar seria 9 = 3!
+        //    exponencialmente, com as notificações Email e SMS + entidades Pessoa e Empresa
+        //    o número de classes a criar seria 4. Com a adição da notificação pelo aplication Demo e
+        //    da entidade Test o número de classes a criar seria 9.
         // 3. Com o objetivo de evitar esse crescimento é preciso ter em consideração o padrão Bridge que apenas
         //    permite a criação de classes concretas relativas aos tipos de notificações e de classes concretas
         //    relativas aos tipos de entidades. Cada tipo de notificação vai por composição associar um tipo
